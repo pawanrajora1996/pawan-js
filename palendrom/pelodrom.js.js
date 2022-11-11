@@ -32,4 +32,33 @@ console.log(store3)
     
  
     
+// 2 tarika
 
+let str = 'rara'
+let len = str.length
+
+console.log(len)
+
+let index = 0;
+
+
+    
+    if( index < len /2){
+        // console.log(str[index])
+        
+        // console.log(str[len -1 - index])
+        
+        if(str[index] == str[len -1 - index]){
+            console.log('its a palndrom')
+        }
+        else{
+            console.log('its not a palndrom')
+        }
+    }
+    
+    
+    
+    
+    
+    
+ 
